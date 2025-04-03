@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 380px;
+}
+
+.site {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+
+div.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.pin-button {
+    background-color: grey;
+    border-radius: 45%;
+    height: 12px;
+    width: 12px;
+}
+
+.pin-button.pinned {
+    background-color: green;
+}
+
+
+.pin-button:hover {
+    cursor: pointer;
+}
